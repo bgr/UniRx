@@ -10,12 +10,17 @@
 */publish
 $tf
 TestResults
-!*.sln
-!*.csproj
-!*/*.csproj
+*.sln
+*.csproj
+*/*.csproj
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
+
+# Don't need Packages and ProjectSettings since this is not a project
+
+Packages/
+ProjectSettings/
 
 # VS2013
 
