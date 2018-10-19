@@ -17,6 +17,9 @@ TestResults
 [Tt]emp/
 [Oo]bj/
 
+# Ignore meta files in root dir only
+/*.meta
+
 # Don't need Packages and ProjectSettings since this is not a project
 
 Packages/
